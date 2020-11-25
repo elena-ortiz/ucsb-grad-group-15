@@ -1,0 +1,18 @@
+---
+title: "Group 15 UCSB domestic grad enrollment"
+author: "Jordan Davis & Elena Ortiz"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(here)
+```
+
+```{r}
+# Read in data
+ucsb_grad<- read.csv(here("data", "ucsb_grad_data.csv"))
+```
+
